@@ -17,10 +17,10 @@
     }
 
     .bgimage {
-      background-image: url('https://images.pexels.com/photos/4199758/pexels-photo-4199758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+      background-image: url('https://media.istockphoto.com/id/1318242748/photo/organic-hydroponic-vegetable-garden-at-greenhouse-and-light-of-sunset.jpg?s=612x612&w=0&k=20&c=ySJynBzIn547iV1V4MuErqM6FphLESq6dH0U-wJIUe8=');
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: 60%;
+      background-position-x: 10%;
       background-attachment: fixed;
       min-height: 100vh;
     }
@@ -43,15 +43,15 @@
 
 <body class="font-monospace">
   <div class="bgimage"> <!--Navigation-->
-    <div class="container">
-      <div class="bg-light bg-opacity-75 text-center pt-4 pb-0 fw-bold">
-        <span class="col-12"><span class="text-success fw-bold fs-1">Green</span>trepreneurs</span>
+    <div class="container-fluid p-0 shadow bg-body">
+      <div class="bg-light text-center pt-4 pb-0 fw-bold bg-body">
+        <span class="col-12 text-warning"><span class="text-success fw-bold fs-1">Green</span>trepreneurs</span>
       </div>
     </div>
     <div class="container sticky-top">
-      <nav class="bg-light bg-opacity-50 rounded-bottom navbar navbar-expand-md bg-opacity-75 p-md-2 pb-2">
+      <nav class="bg-light rounded-bottom navbar navbar-expand-md p-md-2 pb-2 shadow bg-body">
         <div class="container-fluid pe-md-5 text-center">
-          <a class="navbar-brand" href="#"> <img class="img2 float-start ps-2"
+          <a class="navbar-brand " href="#"> <img class="img2 float-start ps-2"
               src="https://i.ibb.co/M9FDCdN/Pixel-logo.png" alt="Pixel-logo" width="100"
               class="d-inline-block align-text-top"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
@@ -79,13 +79,15 @@
       </nav>
     </div> 
     <div class="container"> <!--Content-->
-      <section class="row sectionheight text-center mt-5 mb-3">
-        <div class="col-12 MainSectionHeight bg-dark">First Column</div>
-      </section>
-      <section class="row sectionheight text-center mt-3 mb-3">
-        <div class="col-12 SubSectionHeight bg-dark">First Column</div>
+      <section class="sectionheight row text-center mt-5 ">
+        <h1 class="col-4 MainSectionHeight fw-bold text-light text-start">Hydroponics</h1>
       </section>
     </div>
+    <section class="row- sectionheight text-center mb-3 shadow">
+      <div class="col-12 SubSectionHeight bg-light">First Column</div>
+    </section>
+
+
     <footer class="bg-dark text-white pt-3"> <!--Footer-->
       <div class="d-grid container-fluid text-start">
         <div class="row text-start">
@@ -99,12 +101,12 @@
             <p><i class="fa-solid fa-envelope"></i> Pixelartme@gmail.com</p>
           </div>
           <div class="col-sm-4 col-md-4 col-lg-5 mx-auto ps-3 pe-lg-5 fs-2 pt-md-3">
-            <h6 class="fw-bold pb-2" style="color: orange">Receive an update</h6>
+            <h6 class="fw-bold pb-2" style="color: orange">Stay intouch</h6>
             <div class="input-group mb-3 pt-2">
-              <div class="form-control">
+              <div class="form-control">  
                 <input type="text" class="form-control fst-italic" id="floatingInputGroup1" placeholder="Enter Email">
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-outline-primary text-light">Subscribe</button>
             </div>
             <h6 class="fw-bold text-center pt-2" style="color: orange">Follow Us</h6>
             <div class="text-center">
