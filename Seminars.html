@@ -12,31 +12,33 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>ESAN Greenhouse</title>
   <style>
-    .frontpagecontainer{
+    .frontpagecontainer {
       height: 100vh;
     }
+
     .bgimage {
       background-image: url('https://media.istockphoto.com/id/1318242748/photo/organic-hydroponic-vegetable-garden-at-greenhouse-and-light-of-sunset.jpg?s=612x612&w=0&k=20&c=ySJynBzIn547iV1V4MuErqM6FphLESq6dH0U-wJIUe8=');
       background-repeat: no-repeat;
       background-size: cover;
-      /*background-size: 100%;*/
       background-position-y: 60%;
-      /*background-attachment: fixed;*/
       height: 100vh;
     }
+
     .navtabs {
       margin-right: 20px;
       color: darkgreen !important;
       font-weight: bold;
     }
+
     .navtabs:hover {
       border-bottom: 2px solid darkgreen;
       background-color: white;
       box-shadow: 0px 2px 10px 5px #97b1bf;
       color: black;
-      border-radius: 5px; 
+      border-radius: 5px;
     }
-    .active1{
+
+    .active1 {
       border-bottom: 2px solid darkgreen;
     }
   </style>
@@ -59,28 +61,36 @@
             <ul class="navbar-nav ms-auto justify-content-center text-center pt-md-4 p-lg-0 pt-sm-5"
               style="letter-spacing: 5px">
               <li class="nav-item">
-                <a class="navtabs nav-link active" aria-current="page" href="./index.html"><i class="fa-solid fa-house-user"></i></a>
+                <a class="navtabs nav-link active" aria-current="page" href="./index.html"><i
+                    class="fa-solid fa-house-user"></i></a>
               </li>
               <li class="nav-item">
-                <a class="active1 navtabs nav-link" href="#">THE FARM</a>
+                <a class="navtabs nav-link" href="./About.html">THE FARM</a>
               </li>
               <li class="nav-item">
-                <a class="navtabs nav-link" href="./Seminars.html">SEMINARS</a>
+                <a class="active1 navtabs nav-link" href="./Seminars.html">SEMINARS</a>
               </li>
               <li class="nav-item">
-                <a class="navtabs nav-link" href="./Contacts">CONTACTS</a>
+                <a class="navtabs nav-link" href="#">CONTACTS</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <section class="bg-opacity-75 text-center align-items-center align-space-between p-5 w-100">
-      </section>
-      <section class="d-flex bg-light bg-opacity-75 text-center align-items-center align-space-between h-75 w-100 mt-4">
-        <div class="col-12">adasdasd</div>
-      </section>
-      <section class="bg-opacity-75 text-center align-items-center align-space-between p-5 w-100">
-      </section>
+      <div class="p-5"></div>
+      <div class="d-grid frontpagecontainer bg-light bg-opacity-75 h-75">
+        <div class="container d-flex text-center align-items-end">
+          <div class="col-12 text-dark"><span class="fw-bold fs-1 text-info">Sorry!</span> <br>No upcoming seminar at the moment. <br> We can keep you posted by subscribing with your email</div>
+        </div>
+        <form class="container d-flex mx-auto pt-5 align-items-start">
+          <input class="form-control rounded-0 rounded-start fst-italic" type="text" placeholder="Enter your email..."
+            aria-label="Subscribe">
+          <button class="btn btn-outline-success rounded-0 rounded-end text-light" type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="p-5"></div>
+
+
 
       <footer class="bg-dark text-white pt-3">
         <div class="d-grid container-fluid text-start">
@@ -97,7 +107,7 @@
               <p><i class="fa-solid fa-location-dot"></i> Quezon City, 1114, PH</p>
               <p><i class="fa-solid fa-envelope"></i> Pixelartme@gmail.com</p>
             </div>
-            <div class="col-sm-4 col-md-4 col-lg-5 mx-auto ps-3 pe-lg-5 fs-2 pt-md-3">
+            <div class="col-sm-4 col-md-4 col-lg-5 mx-auto ps-3 pe-lg-5 fs-2 pt-md-3 w-100">
               <h6 class="fw-bold pb-2" style="color: orange">Stay intouch</h6>
               <div class="input-group mb-3 pt-2">
                 <div class="form-control">
@@ -124,8 +134,8 @@
         </div>
     </div>
     </footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    </script>
 </body>
 
 </html>
