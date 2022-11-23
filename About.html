@@ -12,32 +12,40 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>ESAN Greenhouse</title>
   <style>
-    .frontpagecontainer{
+    .frontpagecontainer {
       height: 100vh;
     }
+
     .bgimage {
       background-image: url('https://media.istockphoto.com/id/1318242748/photo/organic-hydroponic-vegetable-garden-at-greenhouse-and-light-of-sunset.jpg?s=612x612&w=0&k=20&c=ySJynBzIn547iV1V4MuErqM6FphLESq6dH0U-wJIUe8=');
       background-repeat: no-repeat;
       background-size: cover;
       /*background-size: 100%;*/
       background-position-y: 60%;
-      /*background-attachment: fixed;*/
+      background-attachment: fixed;
       height: 100vh;
     }
+
     .navtabs {
       margin-right: 20px;
       color: darkgreen !important;
       font-weight: bold;
     }
+
     .navtabs:hover {
       border-bottom: 2px solid darkgreen;
       background-color: white;
       box-shadow: 0px 2px 10px 5px #97b1bf;
       color: black;
-      border-radius: 5px; 
+      border-radius: 5px;
     }
-    .active1{
+
+    .active1 {
       border-bottom: 2px solid darkgreen;
+    }
+
+    .indent {
+      text-indent: 10%
     }
   </style>
 </head>
@@ -59,7 +67,8 @@
             <ul class="navbar-nav ms-auto justify-content-center text-center pt-md-4 p-lg-0 pt-sm-5"
               style="letter-spacing: 5px">
               <li class="nav-item">
-                <a class="navtabs nav-link active" aria-current="page" href="./index.html"><i class="fa-solid fa-house-user"></i></a>
+                <a class="navtabs nav-link active" aria-current="page" href="./index.html"><i
+                    class="fa-solid fa-house-user"></i></a>
               </li>
               <li class="nav-item">
                 <a class="active1 navtabs nav-link" href="#">THE FARM</a>
@@ -76,10 +85,166 @@
       </nav>
       <section class="bg-opacity-75 text-center align-items-center align-space-between p-5 w-100">
       </section>
-      <section class="d-flex bg-light bg-opacity-75 text-center align-items-center align-space-between h-75 w-100 mt-4">
-        <div class="col-12">adasdasd</div>
+      <section class="bg-content d-flex">
+        <div class="row m-2 mt-4 mt-md-0 bg-light d-flex align-items-center">
+
+          <div class="col-lg-6 pt-4 text-center text-lg-start p-lg-5">
+            <h1 class="pb-4" style="color: darkorange;">The Farm</h1>
+            <p><span class="fw-bold">Farm Owner:</span> Erick-john Santosidad</p>
+            <p><span class="fw-bold">Location:</span> Tanza, Cavite, Philippines, 1114</p>
+            <img src="/First Project/The Farm.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="col-lg-6 w-100-lg font-monospace p-5">
+            <p class="indent">
+              <span class="fw-bold fs-5 text-success">Hydroponics</span> is a type of horticulture and a subset of hydroculture which involves growing plants, usually
+              crops or medicinal plants, without soil, by using water-based mineral nutrient solutions in aqueous
+              solvents.
+              Terrestrial or aquatic plants may grow with their roots exposed to the nutritious liquid or in addition,
+              the
+              roots may be mechanically supported by an inert medium such as perlite, gravel, or other substrates.</p>
+
+            <p class="indent">Despite inert media, roots can cause changes of the rhizosphere pH and root exudates can
+              affect rhizosphere
+              biology and physiological balance of the nutrient solution by secondary metabolites.Transgenic
+              plants grown hydroponically allow the release of pharmaceutical proteins as part of the root exudate into
+              the
+              hydroponic medium.</p>
+
+            <p class="indent"></p>The nutrients used in hydroponic systems can come from many different organic or
+            inorganic sources, including
+            fish excrement, duck manure, purchased chemical fertilizers, or artificial nutrient solutions.</p>
+
+            <p class="indent"></p>Plants are commonly grown hydroponically in a greenhouse or contained environment on
+            inert media, adapted to
+            the controlled-environment agriculture (CEA) process. Plants commonly grown hydroponically include
+            tomatoes, peppers, cucumbers, strawberries, lettuces, and cannabis, usually for commercial use, and
+            Arabidopsis thaliana, which serves as a model organism in plant science and genetics.</p>
+
+            <p class="indent"></p>Hydroponics offers many advantages, notably a decrease in water usage in agriculture.
+            To grow 1 kilogram (2.2
+            lb) of tomatoes using intensive farming methods requires 214 liters (47 imp gal; 57 U.S. gal) of water;
+            using hydroponics, 70 liters (15 imp gal; 18 U.S. gal); and only 20 liters (4.4 imp gal; 5.3 U.S. gal) using
+            aeroponics.</p>
+
+            <p class="indent">Hydroponic cultures lead to highest biomass and protein production compared to other
+              growth substrates, of
+              plants cultivated in the same environmental conditions and supplied with equal amounts of nutrients. Since
+              hydroponics takes much less water and nutrients to grow produce and climate change threatens
+              agricultural yields, it could be possible in the future for people in harsh environments with little
+              accessible water to grow their own food.</p>
+            </p>
+          </div>
+
+
+          <!--
+          <nav class="nav col-lg-6 w-100-lg navbar-light-hover-color font-monospace">
+            <div class="d-flex mt-lg-5 mb-lg-5 mb-3 align-items-center">
+              <div class="nav flex-column nav-tabs rounded" id="v-tabs-tab" role="tablist"
+                aria-orientation="vertical">
+                <button class="navtabs2 nav-link rounded-0 rounded-top" id="v-tabs-home-tab"
+                  data-bs-toggle="pill" data-bs-target="#v-tabs-home" type="button" role="tab"
+                  aria-controls="v-tabs-home" aria-selected="false">
+                  <img src="https://i.ibb.co/RyqHDCc/Hydroponics2.png" alt="Hydroponics2">
+                  Hydroponics</button>
+                <hr class="m-0">
+                <button class="navtabs2 nav-link rounded-0" id="v-tabs-nutrients-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-tabs-nutrients" type="button" role="tab" aria-controls="v-tabs-nutrients"
+                  aria-selected="false">
+                  <img data-src="https://generalhydroponics.com/wp-content/uploads/icon-venn-three-black-80px.svg"
+                    alt="Nutrients"
+                    src="https://generalhydroponics.com/wp-content/uploads/icon-venn-three-black-80px.svg"
+                    data-ll-status="loaded">
+                  Nutrients
+                </button>
+                <hr class="m-0">
+                <button class="navtabs2 nav-link control rounded-0" id="v-tabs-supplements-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-tabs-supplements" type="button" role="tab" aria-controls="v-tabs-supplements"
+                  aria-selected="false">
+                  <img data-src="https://generalhydroponics.com/wp-content/uploads/icon-graph-plotter-black-80px-1.svg"
+                    alt="Nutrients"
+                    src="https://generalhydroponics.com/wp-content/uploads/icon-graph-plotter-black-80px-1.svg"
+                    data-ll-status="loaded">
+                  Supplements</button>
+                <hr class="m-0">
+                <button class="navtabs2 nav-link rounded-0 p" id="v-tabs-control-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-tabs-control" type="button" role="tab" aria-controls="v-tabs-control"
+                  aria-selected="false">
+                  <img class="icon lazy entered loaded"
+                    data-src="https://generalhydroponics.com/wp-content/uploads/icon-settings-black-80px.svg"
+                    alt="Controls" src="https://generalhydroponics.com/wp-content/uploads/icon-settings-black-80px.svg"
+                    data-ll-status="loaded">
+                  Control</button>
+                <hr class="m-0">
+                <button class="navtabs2 nav-link rounded-0 rounded-bottom" id="v-tabs-maintenance-tab"
+                  data-bs-toggle="pill" data-bs-target="#v-tabs-maintenance" type="button" role="tab"
+                  aria-controls="v-tabs-maintenance" aria-selected="false">
+                  <img class="icon lazy entered loaded"
+                    data-src="https://generalhydroponics.com/wp-content/uploads/icon-tools-black-80px.svg"
+                    src="https://generalhydroponics.com/wp-content/uploads/icon-tools-black-80px.svg" alt="Maintenance"
+                    data-ll-status="loaded">
+                  Maintenance</button>
+              </div>
+              <div class="container-fluid tab-content text-dark ps-lg-5 text-center" id="v-tabs-tabContent">
+                <div class="tab-pane fade show active" id="v-tabs-home" role="tabpanel"
+                  aria-labelledby="v-tabs-home-tab" tabindex="0">
+                  <h4 class="col-12 nav2content">What we talk about when we talk about hydroponics</h4>
+                  <br>
+                  <div><span class="text-success fw-bold">Hydroponics</span>
+                    means “working water” (hydro means
+                    water and ponos means labor). Many different civilizations have utilized hydroponic growing
+                    techniques
+                    throughout history.</div><br>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                      <a type="button" class="btn btn-outline-success" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-tabs-nutrients" role="tabpanel"
+                  aria-labelledby="v-tabs-nutrients-tab" tabindex="0">
+                  <h4 class="col-12 nav2content">Complete nutrient sources suitable for all gardens</h4>
+                  <br>
+                  <p>Providing superior results in both soil and hydroponic gardens, General Hydroponics nutrients offer
+                    total nutrition as a mineral-based plant food.</p>
+                    <br>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                      <a type="button" class="btn btn-outline-success" href="#">Learn More</a>
+                    </div>
+    
+                </div>
+                <div class="tab-pane fade" id="v-tabs-supplements" role="tabpanel"
+                  aria-labelledby="v-tabs-supplements-tab" tabindex="0">
+                  <h4 class="nav2content">Vigorous growth. Outstanding blooms.</h4>
+                  <br>
+                  <p><span class="fw-bold text-success">ESAN Greenhouse</span>’s complete line of high quality supplements are designed to stimulate your
+                    gardens vigorous growth and increase fruit production with outstanding blooms.</p><br>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                      <a type="button" class="btn btn-outline-success" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-tabs-control" role="tabpanel" aria-labelledby="v-tabs-control-tab"
+                  tabindex="0">
+                  <h4 class="nav2content">Prepare. Prevent. Protect.</h4>
+                  <br>
+                  <p>Prevention is better than cure. Find out more about Exile, DefGuard, and Prevasyn. Bugs never had
+                    it so bad.</p><br>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                      <a type="button" class="btn btn-outline-success" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-tabs-maintenance" role="tabpanel"
+                  aria-labelledby="v-tabs-maintenance-tab" tabindex="0">
+                  <h4 class="nav2content">These maintenance products help keep your system clean, buffered and growing.</h4>
+                  <br>
+                  <p>Our line of general hydroponics system maintenance products including ph buffers and reference
+                    solutions.</p><br>
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                      <a type="button" class="btn btn-outline-success" href="#">Learn More</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </nav>-->
       </section>
-      <section class="bg-opacity-75 text-center align-items-center align-space-between p-5 w-100">
+      <section class="text-center align-items-center align-space-between p-5 w-100">
       </section>
 
       <footer class="bg-dark text-white pt-3">
@@ -125,7 +290,7 @@
     </div>
     </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
