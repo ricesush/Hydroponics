@@ -1,0 +1,66 @@
+.frontpagecontainer {
+    height: 100vh;
+  }
+
+  .frontpage {
+    height: 30vh;
+    letter-spacing: 5px
+  }
+
+  .bgimage {
+    background-image: url('https://media.istockphoto.com/id/1318242748/photo/organic-hydroponic-vegetable-garden-at-greenhouse-and-light-of-sunset.jpg?s=612x612&w=0&k=20&c=ySJynBzIn547iV1V4MuErqM6FphLESq6dH0U-wJIUe8=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-size: 100%;*/
+    background-position-y: 60%;
+    /*background-attachment: fixed;*/
+    height: 100vh;
+  }
+
+  .ftext {
+    font-size: 12px;
+  }
+
+  .navtabs {
+    margin-right: 20px;
+    color: darkgreen !important;
+    font-weight: bold;
+  }
+
+  .navtabs:hover {
+    border-bottom: 2px solid darkgreen;
+    background-color: white;
+    box-shadow: 0px 2px 10px 5px #97b1bf;
+    color: black;
+    border-radius: 5px;
+  }
+
+  .navtabs2:active {
+    color: green;
+  }
+
+  .navtabs2 {
+    color: black !important;
+    font-weight: bold;
+  }
+
+  .navtabs2:hover {
+    color: darkorange !important;
+    box-shadow: 0px 2px 10px 5px #97b1bf;
+  }
+
+  .active1 {
+    border-bottom: 2px solid darkgreen;
+  }
+
+  .section2 {
+    color: white !important;
+  }
+
+  .nav2content {
+    color: purple;
+  }
+  .indent{
+    text-indent: 10%;
+    text-align: justify;
+  }
