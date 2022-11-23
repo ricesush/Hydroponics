@@ -21,10 +21,9 @@
   .bgimage2{
     background-image: url('https://media.istockphoto.com/id/1318242748/photo/organic-hydroponic-vegetable-garden-at-greenhouse-and-light-of-sunset.jpg?s=612x612&w=0&k=20&c=ySJynBzIn547iV1V4MuErqM6FphLESq6dH0U-wJIUe8=');
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: cover;
     background-position: absolute;
     background-position-y: 60%;
-
     height: 100vh;
   }
 
