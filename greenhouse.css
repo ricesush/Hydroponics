@@ -1,5 +1,5 @@
 .frontpagecontainer {
-    height: 620vh;
+    height: 640vh;
   }
   .frontpagecontainer2{
     height: 100vh;
@@ -15,7 +15,7 @@
     background-position: absolute;
     background-position-y: 60%;
     background-attachment: fixed;
-    height: 620vh;
+    height: 640vh;
   }
 
   .bgimage2{
@@ -26,7 +26,6 @@
     background-position-y: 60%;
     height: 100vh;
   }
-
   .ftext {
     font-size: 12px;
   }
