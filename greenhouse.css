@@ -1,5 +1,5 @@
 .frontpagecontainer {
-    height: 640vh;
+    height: 590vh;
   }
   .frontpagecontainer2{
     height: 100vh;
@@ -15,7 +15,7 @@
     background-position: absolute;
     background-position-y: 60%;
     background-attachment: fixed;
-    height: 640vh;
+    height: 590vh;
   }
 
   .bgimage2{
