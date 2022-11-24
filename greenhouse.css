@@ -29,6 +29,9 @@
   .ftext {
     font-size: 12px;
   }
+  .textFont{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
 
   .navtabs {
     margin-right: 20px;
